@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern+Guides&display=swap');
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.topimage{
+    background-image: url("./assets/DALL·E\ 2024-12-20\ 21.44.09\ -\ A\ minimalist\ banner\ image\ designed\ for\ a\ study\ resource\ website.\ The\ image\ spans\ full\ screen\ width\ and\ has\ a\ height\ of\ 80px.\ The\ design\ includes\ a\ cle.webp");
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80px;
+}
+.container {
+  background-color:rgb(10, 10, 61);
+  height: 30px;
+  padding-left: 2px;
+  
+}
+.container .nav{
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    justify-content: center;
+}
+.container .nav a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: "Playwrite US Modern Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav li{
+    list-style-type: none;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(50, 195, 214);
+    overflow: hidden;
+}
+.section .card{
+    background-color: rgb(42, 39, 211);
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    margin:0px auto 0px;
+    box-shadow: 0 0 10px 8px blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section .card .profile{
+    margin:0px auto 15px;
+}
+.section .card .profile img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.section .card  h2{
+    margin:2px auto 10px;
+    background-image: linear-gradient(skyblue,blue,cyan);
+}
+.section .card p{
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0px auto 30px;
+}
+.section .card a{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: large;
+}
