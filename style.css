@@ -40,6 +40,14 @@ body {
 .nav li{
     list-style-type: none;
 }
+.search{
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    margin: 2px auto 0px;
+    border-top-left-radius : 25px;
+    border-bottom-left-radius:25px;
+}
 .section{
     display: flex;
     justify-content: center;
